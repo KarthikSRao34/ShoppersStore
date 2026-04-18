@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure--yr3*t69x16es5drrz3!$5xxz396y+dky-x70x67^+pi@q2@$6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'shoppersstore.onrender.com',
+]
 
 LOGIN_REDIRECT_URL = '/login/'
 LOGOUT_REDIRECT_URL = '/'
