@@ -23,10 +23,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure--yr3*t69x16es5drrz3!$5xxz396y+dky-x70x67^+pi@q2@$6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     'shoppersstore.onrender.com',
+    'localhost',
+    'http://127.0.0.1:8000/',
+    '127.0.0.1',
 ]
 
 LOGIN_REDIRECT_URL = '/login/'

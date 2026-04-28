@@ -28,11 +28,11 @@ class SignupForm(UserCreationForm):
                 'placeholder':'Your email',
                 'class':INPUT_CLASSES
                 }))
-    password1=forms.CharField(widget=forms.TextInput(attrs={
+    password1=forms.CharField(widget=forms.PasswordInput(attrs={
                 'placeholder':'Your password',
                 'class':INPUT_CLASSES
                 }))
-    password2=forms.CharField(widget=forms.TextInput(attrs={
+    password2=forms.CharField(widget=forms.PasswordInput(attrs={
                 'placeholder':'Repeat password',
                 'class':INPUT_CLASSES
                 }))
