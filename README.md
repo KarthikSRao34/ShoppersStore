@@ -161,17 +161,5 @@ Run the Django test suite with:
 python manage.py test
 ```
 
-The current app test files appear to be Django-generated placeholders, so add meaningful tests for listing permissions, authentication, search/filtering, and messaging as the project develops.
 
-## Future Improvements
 
-- Add pagination to the listing page.
-- Add automated tests for the main user flows.
-- Improve form validation and user-facing success/error messages.
-- Add seller profile pages and listing sorting options.
-- Move secrets and deployment settings to environment variables.
-- Add production-ready image storage and deployment documentation.
-
-## License
-
-No license file was present in the inspected project. Unless a license is added, all rights remain with the copyright holder; please contact the repository owner before redistributing the project.
